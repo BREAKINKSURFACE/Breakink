@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BreakInkSurface - Professional Tattooing</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>BreakInkSurface</h1>
+      <p>Professional Tattooing</p>
+      <a href="#portfolio">View Portfolio</a>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum purus non felis cursus ullamcorper.</p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="gallery">
+        <!-- Add your tattoo images here -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <input type="text" placeholder="Image reference">
+        <input type="text" placeholder="Description">
+        <input type="text" placeholder="Approximate size in cm">
+        <input type="text" placeholder="Style">
+        <input type="text" placeholder="Placement on body">
+        <input type="text" placeholder="Availability">
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 BreakInkSurface. All rights reserved.</p>
+  </footer>
+</body>
+</html>
